@@ -1,0 +1,354 @@
+---
+title: "Psychiatric Exacerbations and Acute Stressors"
+subtitle: <https://cole-brokamp.github.io/peas>
+author: "Cole Brokamp"
+institute: "Cincinnati Children's Hospital Medical Center"
+date: "2024-10-24"
+format: 
+  revealjs:
+    theme: cole.scss
+    standalone: true
+    embed-resources: true
+    link-external-icon: false
+    link-external-newwindow: true
+    logo: "figs/super_secret_CCHMC_CBI_WO_TAG.png"
+    margin: 0.1
+---
+
+# Timing of Early Life Exposures is Important
+
+## Psychiatric disorders in children and adolescents...
+
+- NSCH estimates 1 in 6 youth aged 6-17 have a 'treatable mental health condition'
+- Meta-analytic estimates: 50% of all lifetime mental illnesses begin by age 14; 75% by age 25
+
+```{r}
+#| fig.align: center
+knitr::include_graphics("https://www.ncbi.nlm.nih.gov/pmc/articles/instance/10618105/bin/41380_2023_2202_Fig1_HTML.jpg")
+```
+
+::: footer
+[Uhlhaas PJ, Davey CG, Mehta UM, Shah J, Torous J, Allen NB, Avenevoli S, Bella-Awusah T, Chanen A, Chen EY, Correll CU. Molecular Psychiatry. 2023 Aug;28(8):3171-81.](https://pubmed.ncbi.nlm.nih.gov/37580524/)
+:::
+
+## ... are psychiatric disorders across the lifespan *and* the population
+
+- Symptoms interfere with healthy social, emotional, and educational milestones
+- Causes difficulties later in life, including poor educational achievement, recurrent unemployment, substance abuse, relationship difficulties, and further psychopathology, including psychiatric crises
+
+```{r}
+#| fig.align: center
+knitr::include_graphics("https://cdn.ncbi.nlm.nih.gov/pmc/blobs/76a0/10618105/0396031f4006/41380_2023_2202_Fig2_HTML.jpg")
+```
+
+::: footer
+[Uhlhaas PJ, Davey CG, Mehta UM, Shah J, Torous J, Allen NB, Avenevoli S, Bella-Awusah T, Chanen A, Chen EY, Correll CU. Molecular Psychiatry. 2023 Aug;28(8):3171-81.](https://pubmed.ncbi.nlm.nih.gov/37580524/)
+:::
+
+## Early-life windows sensitive to airborne lead exposure associated with adolescent problematic behavior
+
+::: footer
+[Rasnick E, Ryan PH, Bailer AJ, Fisher T, Parsons P, Yolton K, Newman N, Lanphear BP, Brokamp C. Environmental Epidemiology. 2021 April;5(2).](https://pubmed.ncbi.nlm.nih.gov/33870016/)
+:::
+
+- Urban air still contains lead, although *ten times lower* than the current EPA standards
+- Prospective cohort study of 263 children followed from birth until age twelve (CCAAPS, PI: Ryan)
+- Monthly ambient lead associated with behavioral problems independently of maternal education, community material deprivation, blood lead concentrations, nearby greenness, and traffic
+
+:::: columns
+::: {.column width="50%"}
+```{r}
+#| fig.align: center
+knitr::include_graphics("https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5922/8043737/f44f05b39d05/ee9-5-e144-g001.jpg")
+```
+:::
+::: {.column width="50%"}
+```{r}
+#| fig.align: center
+knitr::include_graphics("https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5922/8043737/4a9f7ac23ec5/ee9-5-e144-g005.jpg")
+```
+:::
+::::
+
+
+## Timing during pregnancy
+
+[Parikh M, Brokamp C, Rasnick E, Ding L, Mersha TB, Bowers K, Folger AT. Epigenome-wide association of neonatal methylation and trimester-specific prenatal PM2.5 exposure. *Environmental Epidemiology*. 2022.](https://pubmed.ncbi.nlm.nih.gov/36249271/)
+
+- cg18705808 associated with the average PM2.5
+- pathway & network analysis = little similarity between first two trimesters
+- *TMEM184A*, the gene regulated by cg18705808, involved in inflammatory pathways
+
+[Parikh MN, Manning ER, Niu L, Ruehlmann AK, Folger AT, Brunst KJ, Brokamp C. Increasing Temporal Sensitivity of Omics Association Studies with Epigenome-Wide Distributed Lag Models. *American Journal of Epidemiology*. In Press. 2024.](https://pubmed.ncbi.nlm.nih.gov/36249271/)
+
+- New method for screening timing-specific effects in high dimensional settings: traditional false discovery rate methods + distributed lag model (DLM)
+- Achieved increased sensitivity for associations limited to specific periods of time compared to traditional two-stage approaches
+- Real-world analysis: DNAm at 353 CpG sites measured at age 12 were significantly associated with PM2.5 exposure during distinct weeks of pregnancy
+
+
+
+# Air pollution is a potentially-modifiable, population-level contributor to psychiatric morbidity
+
+## Air pollution affects the brain and central nervous system
+
+::: footer
+[Snow SJ, Henriquez AR, Costa DL, Kodavanti UP. Toxicological Sciences. 2018 Jul 1;164(1):9-20.](https://pubmed.ncbi.nlm.nih.gov/29846720/)
+:::
+
+:::: {.columns}
+::: {.column width="50%"}
+```{r}
+#| out.width: 15in
+#| dpi: 300
+#| fig.align: center
+knitr::include_graphics("https://cdn.ncbi.nlm.nih.gov/pmc/blobs/85b0/6659011/bd390341927b/kfy129f1.jpg")
+```
+:::
+::: {.column width="50%"}
+```{r}
+#| out.width: 15in
+#| dpi: 300
+#| fig.align: center
+knitr::include_graphics("https://cdn.ncbi.nlm.nih.gov/pmc/blobs/85b0/6659011/79714d0b5cd1/kfy129f2.jpg")
+```
+:::
+::::
+
+## Air pollution and public health
+
+::: footer
+[Keswani A, Akselrod H, Anenberg SC. NEJM Evidence. 2022 Jun 28;1(7):EVIDra2200068.](https://pubmed.ncbi.nlm.nih.gov/38319260/)
+:::
+
+:::: {.columns}
+::: {.column width="65%"}
+```{r}
+#| fig.align: center
+knitr::include_graphics("figs/ap_cc_ph.jpg")
+```
+:::
+
+::: {.column width="35%"}
+**Particulate matter**: $PM_{10}$, $PM_{2.5}$, and $PM_{0.1}$; anthropogenic fuel combustion, landscape fire smoke, secondary formation of particles from precursors, windblown dust
+
+**Ozone**: Secondary formation through chemical reaction of precursors with sunlight
+
+**NO$_2$**: Anthropogenic fuel combustion for transportation, electricity generation, industrial processes
+
+[EPA National Ambient Air Quality Standards](https://www.epa.gov/criteria-air-pollutants/naaqs-table)
+:::
+::::
+
+
+
+
+## Place-based exposures and blood biomarkers of inflammation
+
+::: footer
+[Iyer HS, Hart JE, James P, Elliott EG, DeVille NV, Holmes MD, De Vivo I, Mucci LA, Laden F, Rebbeck TR. Environment international. 2022 Apr 1;162:107164.](https://pubmed.ncbi.nlm.nih.gov/35255255/)
+:::
+
+```{r}
+#| fig.align: center
+knitr::include_graphics("https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a6a6/8985077/036d859a0fd5/nihms-1786670-f0001.jpg")
+```
+
+## Anxiety Symptom Severity/Frequency and Daily $PM_{2.5}$
+
+::: footer
+[Vancil A, Strawn JR, Rasnick E, Levine A, Schroeder HK, Specht AM, Turner AL, Ryan PH, Brokamp C. Psychiatry research communications. 2022 Dec 1;2(4):100077.](https://pubmed.ncbi.nlm.nih.gov/36644031/)
+:::
+
+- 23 adolescents with severe generalied anxiety disorder followed over eight weeks
+- 123 total weekly pediatric anxiety rating scale (PARS) clinical assessments
+
+:::: columns
+::: {.column width="50%"}
+```{r}
+#| fig.align: center
+knitr::include_graphics("https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4b2a/9837744/7bf41f34442d/nihms-1858765-f0001.jpg")
+```
+:::
+::: {.column width="50%"}
+```{r}
+#| fig.align: center
+knitr::include_graphics("https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4b2a/9837744/584554383309/nihms-1858765-f0002.jpg")
+```
+:::
+::::
+
+
+
+# Psychiatric Exacerbations
+## Pediatric Psychiatric Exacerbations → Hospitalizations are Increasing
+
+:::: columns
+::: {.column width="30%"}
+- 2009 - 2019: 26% increase in mental health hospitalizations nationwide
+- 163% in pediatric hospitalizations with a diagnosis of suicide or self-injury
+- 2019 - 2021 CDC youth survey estimates 18% of persons aged 14 to 18 completed non-suicidal self-injury
+:::
+::: {.column width="70%"}
+```{r}
+#| fig.align: center
+knitr::include_graphics("figs/mental_health_admissions_region_hamco.png")
+```
+:::
+::::
+
+::: footer
+[Sourced from Epic Cosmos on 2024-10-22.](https://cosmos.epic.com/)
+:::
+
+
+## Climate and Environmental Daily Stressors
+
+High-resolution and spatiotemporal exposure assessment models for:
+
+- Ambient air pollution: PM2.5, Ozone, NO2 (wildfire smoke plumes)
+- Heat: heat waves, extreme temperature, humidity, precipitation
+- Allergens: pollen, mold, ragweed
+
+```{r}
+#| fig.align: center
+knitr::include_graphics("figs/daily_exposures.png")
+```
+
+## Case-Control Crossover Study Design
+
+:::: columns
+::: {.column width="25%"}
+```{r}
+knitr::include_graphics("figs/casecross_calendar.png")
+```
+:::
+::: {.column width="70%"}
+- Estimate causal effects of transient treatments on acute outcomes
+- EHR-based cohort + place-based exposures advantages
+- Within-individual design prevents confounding by 'time-invariant' (e.g. within a month) characteristics
+- Stratification on year, month, day of week prevents confounding by temporal trends
+- Conditional logistic regression; person-time unit of observation
+- Statistical adjustment for common confounders (temperature, humidity, holidays, secular or periodic trends)
+:::
+::::
+
+## Daily PM2.5 and 13,176 CCHMC Psychiatric Encounters Between 2011 and 2015
+
+- Increased PM2.5 associated with increased risk one (7% [2, 12]) and two (5% [0, 10]) days later
+  - Adjustment disorder and suicidality increased risk one day later
+  - Stronger associations in highly deprived communities for anxiety and suicidality
+  - Weaker associations in highly deprived communities for adjustment disorder
+
+:::: columns
+::: column
+```{r}
+knitr::include_graphics("figs/ehp4815_f1.jpg")
+```
+:::
+::: column
+```{r}
+knitr::include_graphics("figs/ehp4815_f2.jpg")
+```
+:::
+::::
+
+
+::: footer
+[Brokamp C, Strawn JR, Beck AF, Ryan P. Environmental Health Perspectives. 2019 Sep 25;127(9):097006.](https://pubmed.ncbi.nlm.nih.gov/31553231/)
+:::
+
+## Updated CCHMC ED/UC Psychiatric Exacerbations among Hamilton County, Ohio patients, July 2016 - July 2022
+
+| **Psychiatric category**          | **N visits** | **Public ins.** | **High com. dep.** |
+|-----------------------------------|--------------|-----------------|--------------------|
+| All                               | 12,767       | 8,442 (66%)     | 8,842 (66%)        |
+| Adjustment disorder               | 1,979        | 1,202 (61%)     | 562 (28%)          |
+| Anxiety disorder                  | 1,122        | 529 (47%)       | 267 (24%)          |
+| Depressive disorder               | 1,636        | 903 (55%)       | 377 (23%)          |
+| Externalizing disorder            | 2,376        | 1,692 (71%)     | 843 (35%)          |
+| Intermittent explosive disorder   | 1,420        | 1,107 (78%)     | 485 (35%)          |
+| Suicide and self-inflicted injury | 1,002        | 585 (58%)       | 261 (26%)          |
+
+
+- Odds of a psychiatric exacerbation were increased 8% (odds ratio: 1.08, 95% CI: [1.00, 1.16]) *two days* after a 10 $\mu g / m^3$ increase in PM2.5 
+- Driven by associations with *anxiety* disorders (OR 1.68, [1.06, 2.67]) and *depression* disorders (OR 1.20, [0.99, 1.46])
+
+## Daily $PM_{2.5}$ increases individual-level risk of psychiatric emergency care differently by susceptibility characteristics
+
+```{r}
+#| fig.align: center
+knitr::include_graphics("figs/effect_modification_by_SES.png")
+```
+
+
+# Individual-level, Hyperlocal, Daily Exacerbation Risk
+
+## Address Linkage
+
+
+- Fuzzy linkage of billing addresses to county parcel identifiers facilitates linkage of parcel characteristics from auditors webpage and enforced housing infractions from Open Data Cincinnati
+- parcel, shotspotter, violent crime, HUD, auditor
+
+```{r}
+#| fig.align: center
+knitr::include_graphics("figs/parcel.png")
+```
+
+## Longitudinal Residential History in an EHR-based Prospective Cohort
+
+- Registry of children utilizing CCHMC ED/UC for asthma July 2016 - July 2022
+- Prospectively follow 13,404 asthma patients living at 22,762 unique addresses for 11 million cumulative patient-days
+
+```{r}
+#| fig.align: center
+knitr::include_graphics("figs/longitudinal_residential_address_history_and_event.png")
+```
+
+## Exacerbations associated with poor housing conditions
+
+:::: columns
+
+::: column
+
+- 9.9% experienced an exacerbation
+- 12% exposed to poor housing conditions
+- proportional hazards model adjusted for public insurance and total market value by housing type
+- living at a parcel with a housing infraction during the previous year associated with **34% (95% CI: 8% to 67%) increased exacerbation risk**
+
+:::
+
+::: column
+
+```{r}
+#| fig.align: center
+#| out.width: 5in
+knitr::include_graphics("figs/asthma_housing_km.png")
+```
+
+:::
+::::
+
+::: footer
+*Under Review* Brokamp C, Ray S, Duan Q, Hartlage CS, Taylor S, Manning ER, Unaka N, Jones MN, Michael J, Henize AW, Beck AF. 2024.
+:::
+
+
+
+
+## Population's Unified Life Stress Evaluation
+
+Temporal measures of collective mental health and well-being among the population served by CCHMC:
+
+- Number of mass shooting (National Gun Violence Archive)
+- Suicide, suicidality, non-suicidal self-injury rates
+- Neighborhood-level rates of acute mental health crises reported in healthcare settings
+- Trends in anxiety and depression keywords from social media and search engines
+- Pulse surveys and public sentiments
+- AQI, heat waves, pollen, mold
+- Cincy Air Watch
+- Gun violence, violent crime, gunshots
+- Housing infractions, eviction filings
+- Alleged child abuse and neglect rates
+- Food insecurity
+- Civic engagement
+
